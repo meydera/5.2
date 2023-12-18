@@ -177,3 +177,24 @@ h3{
 #start:hover{
     transform: scale(1.3);
 }
+
+/* footer */
+
+footer{
+    background-color: #352e4f;
+    display: flex;
+    padding: 100px 90px;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+#ft-text{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+}
