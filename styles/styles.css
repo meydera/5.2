@@ -9,6 +9,10 @@
     font-family:'Neucha', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Header */
 
 header{
