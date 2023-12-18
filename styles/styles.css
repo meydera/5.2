@@ -87,6 +87,7 @@ h2{
 #img1, #img2{
     width: 30%;
     transition: .2s;
+    border-radius: 1000px;
 }
 
 #img1:hover{
@@ -102,7 +103,7 @@ h3{
     color: white;
     display: flex;
     justify-content: center;
-    font-size: 230%;
+    font-size: 300%;
     margin-bottom: 90px;
 }
 
@@ -123,6 +124,7 @@ h3{
 #img3, #img4{
     width: 30%;
     transition: .2s;
+    border-radius: 1000px;
 }
 
 #img3:hover{
@@ -132,4 +134,46 @@ h3{
 
 #img4:hover{
     transform: scale(1.1);
+}
+
+.text-arrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#arrow{
+    width: 20%;
+}
+
+#h3-arrow{
+    color: #6A994E;
+    margin: 0;
+}
+
+#p-arrow{
+    color: #6A994E;
+    display: flex;
+    width: 365px;
+    font-size: 150%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#start{
+    color: white;
+    padding: 15px;
+    background-color: #386641;
+    border-radius: 50px;
+    transition: .2s;
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#start:hover{
+    transform: scale(1.3);
 }
