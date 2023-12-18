@@ -9,3 +9,60 @@
     font-family:'Neucha', sans-serif;
 }
 
+/* Header */
+
+header{
+    background-color: #F2E8CF;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #386641;
+    font-size: 200%;
+}
+
+h1{
+    color: #386641;
+    display: flex;
+    justify-content: center;
+    font-size: 500%;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 45px 0;
+    margin: 0;
+}
+
+/* main */
+
+main{
+    background-color: #AB3E40;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin-top: 0;
+    color: white;
+    font-weight: 400;
+    font-size: 270%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 90px 0 45px 90px;
+    margin: 0;
+}
+
+.text{
+    color: white;
+    font-size: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    width: 502px;
+    padding: 0 0 90px 90px;
+}
