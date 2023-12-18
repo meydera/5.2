@@ -26,6 +26,7 @@ a{
     text-decoration: none;
     color: #386641;
     font-size: 200%;
+    padding-top: 20px;
 }
 
 h1{
@@ -41,10 +42,15 @@ h1{
 
 /* main */
 
+/* text */
+
 main{
-    background-color: #AB3E40;
     display: flex;
     flex-direction: column;
+}
+
+.text-area{
+    background-color: #AB3E40;
 }
 
 h2{
@@ -60,9 +66,70 @@ h2{
 
 .text{
     color: white;
-    font-size: 100%;
+    font-size: 150%;
     display: flex;
     flex-flow: column wrap;
-    width: 502px;
+    width: 50%;
     padding: 0 0 90px 90px;
+}
+
+/* image */
+
+#attributes{
+    background-color: #352e4f;
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+
+#img1, #img2{
+    width: 30%;
+    transition: .2s;
+}
+
+#img1:hover{
+    transform: scale(1.1);
+}
+
+
+#img2:hover{
+    transform: scale(1.1);
+}
+
+h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 230%;
+    margin-bottom: 90px;
+}
+
+.description{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 150%;
+    margin-top: 10px;
+}
+
+.att-img{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0;
+}
+
+#img3, #img4{
+    width: 30%;
+    transition: .2s;
+}
+
+#img3:hover{
+    transform: scale(1.1);
+}
+
+
+#img4:hover{
+    transform: scale(1.1);
 }
